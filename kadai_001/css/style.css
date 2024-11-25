@@ -1,0 +1,123 @@
+body{
+  font-family:  "Josefin Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+/* header */
+header{
+ max-width: 980px;
+ height: auto;
+ padding: 32px 16px 32px 16px;
+ margin: 0 auto 0 auto;
+ position: relative;
+ display: flex;
+ justify-content: space-between;
+}
+#main-title h2{
+  border: solid 1px;
+  padding: 10px;
+  line-height: 1;
+}
+#menu>ul{
+  list-style: none;
+  display: flex;
+}
+#menu>ul>li{
+  font-size: 34px;
+  margin-left: 20px;
+}
+
+/* メイン */
+#main-img{
+  padding:0 auto 0 auto;
+}
+#main-img img{
+  width: 100%;
+  height: auto;
+}
+#section-about{
+  width: 820px;
+  height: 402px;
+  margin: 100px auto 100px auto;
+}
+
+h2{
+  font-size: 34px;
+  text-align: center;
+  margin: 0;
+}
+h3{
+  font-size: 24px;
+}
+p{
+  font-size: 18px;
+}
+/* about */
+#about-contents{
+  display: flex;
+}
+#about-img{
+  margin-right: 120px;
+}
+#about-img img{
+  border-radius:50%;
+}
+#about-description{
+  margin-top: 50px;
+}
+/* works */
+#section-works{
+  width: auto;
+  height: auto;
+  margin: 0 auto 100px auto;
+}
+#works-contents{
+  max-width: 752px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  column-gap: 16px;
+}
+.works-description{
+  font-size: 18px;
+}
+/* footer */
+footer>p{
+  text-align: center;
+}
+
+/* スマートフォン用 */
+@media screen and (max-width:767px) {
+  
+  #main-title h2{
+    font-size: 28px;
+  }
+  
+  #menu>ul>li{
+    font-size:21px ;
+    margin-left: 18px;
+  }
+  #section-about{
+    width: 100%;
+    height: auto;
+  }
+  #about-contents{
+    display: block;
+  }
+  #about-description{
+   text-align: left;
+  }
+  #about-description>h3{
+    padding-left:30px ;
+  }
+  #about-img{
+    margin: 0;
+    text-align: center;
+  }
+  #works-contents{
+    display: block;
+    text-align: center;
+  }
+}
