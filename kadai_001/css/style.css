@@ -28,6 +28,9 @@ header{
   font-size: 34px;
   margin-left: 20px;
 }
+a{
+  text-decoration: none;
+}
 
 /* メイン */
 #main-img{
